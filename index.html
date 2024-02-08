@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7a911c109a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li class="top-nav"><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1><span>Shreyas</span> Saxena</h1>
+        </div>
+    </div>
+</div>
+<!------about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p><br>Hello! I'm Shreyas Saxena, a passionate UI/UX designer with a keen eye for creating intuitive and visually appealing digital experiences.I am always excited about the opportunity to collaborate on innovative projects.<br><br>If you're looking for a dedicated UI/UX designer who can bring creativity and strategic thinking to your team, let's connect!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Wireframes, Prototypes and Web Designs<br></li>
+                        <li><span>Web Development</span><br>Responsive Design<br>Machine Learning<br>C++/Python/Java + Frontend Development</li>
+                        <li><span>App Development</span><br>Building App/IOS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>March 2023 - Jan 2024</span><br>Google UX Design Professional Certificate(+7 more)</li>
+                        <li><span>July 2023</span><br>Social Media Marketing by Meta</li>
+                        <li><span>Oct 2023</span><br>Machine Learning by Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Kalinga Institute Of Industrial Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Web Design</h2>
+                <p>Creating, planning, and organizing visual elements and content for websites.</p>
+                <a href="./Extra/webdesign/index.html" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UX Design</h2>
+                <p>Create products that are meaningful, easy to use, and enjoyable for the users.</p>
+                <a href="./Extra/UX design/index.html" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-medapps"></i>
+                <h2>App Design</h2>
+                <p>Designing the user interface (UI), user experience (UX), and overall aesthetics to ensure that the app is not only functional but also provides a pleasant and intuitive experience</p>
+                <a href="#" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">PortFolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/tickets.png">
+                <div class="layor">
+                    <h3>Travelling Web-design</h3>
+                    <p>Digital enthusiasts united by a common love for discovering the beauty and diversity our planet has to offer.</p>
+                    <a href="./Extra/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/basco.png">
+                <div class="layor">
+                    <h3>Brand Advertising</h3>
+                    <p>It's a lifestyle, a commitment to quality, and a promise to exceed your expectations.</p>
+                    <a href="./Extra/portfolio2/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="./Extra/see more/index.html" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+
+<!---contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-message"></i>shreyassaxena0@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i>7048542600</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shreyas.saxena.39/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shreyas-saxena-06215b261/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <h5 id="msg"></h5>
+                <form>
+                    <input type="text"name="name"placeholder='Name'><br><br>
+                    <input type="email"name="email"placeholder='E-mail'><br><br>
+                    <input type="tel"name="phone"placeholder='Phone'><br><br>
+                    <input type="Submit" class="btn btn2" id="sub">
+                   </form>
+                <span id="message"></span>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+
+<script>
+    let form = document.querySelector("form");
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        document.querySelector("#sub").value="Submitting..";
+        let data = new FormData(form);
+        fetch('https://script.google.com/macros/s/AKfycbzpR9n075DQA-p-GfKt2LuYN1-A4oraolaMOL63c2dlcrVrSpVJjma2B4LyEYLYy_h1nQ/exec',{
+            method:"POST",
+            body: data
+        })
+            .then(res => res.text())
+            .then(data => {
+                document.querySelector("#msg").innerHTML = data;
+                document.querySelector("#sub").value="Submit"});
+    })
+</script>
+</body>
+</html>
