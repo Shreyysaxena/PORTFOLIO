@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #1b1b1b;
+    color: #fff;
+}
+#portfolio{
+    padding-top: 70px;
+    padding: 20px;
+    color: #fff;
+}
+.container{
+    padding: 20px 7%;
+}
+.designtext{
+    flex-basis: 100%;
+}
+.designtext h1{
+    flex-basis: 10%;
+    padding: 40% 20;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+}
+.designtext p{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 10;
+    word-spacing: 6px;
+}
+.designtext i{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 10;
+    word-spacing: 6px;
+    color: rgb(149, 65, 227);
+}
+.picture img{
+    width: 100%;
+    margin-right: 100px;
+    border-radius: 0px;
+    margin-left: auto;
+    padding-top: 32px;
+}
